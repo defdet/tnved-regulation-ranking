@@ -1,0 +1,4 @@
+# Normalise line endings in the repo; keep the working copy native.
+* text=auto eol=lf
+*.jsonl text eol=lf
+*.csv   text eol=lf

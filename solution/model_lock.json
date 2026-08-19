@@ -1,0 +1,8 @@
+{
+  "Alibaba-NLP/gte-multilingual-reranker-base": "8215cf04918ba6f7b6a62bb44238ce2953d8831c",
+  "BAAI/bge-reranker-base": "2cfc18c9415c912f9d8155881c133215df768a70",
+  "BAAI/bge-reranker-v2-m3": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "Qwen/Qwen3-Reranker-4B": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+  "intfloat/multilingual-e5-base": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "intfloat/multilingual-e5-small": "614241f622f53c4eeff9890bdc4f31cfecc418b3"
+}

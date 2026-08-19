@@ -1,0 +1,16 @@
+# Verified on Python 3.11.9 / Windows 11 (26200) and Python 3.12 / Linux.
+# Pinned exactly: the run must be reproducible offline, and a silent minor
+# bump in transformers or tokenizers changes tokenisation and therefore scores.
+
+torch==2.9.1                 # CPU build is sufficient for --pipeline cpu
+transformers==4.57.6
+tokenizers==0.22.2
+safetensors==0.5.3
+huggingface-hub==0.36.0
+
+numpy==2.1.3
+scipy==1.15.2
+scikit-learn==1.6.1          # TfidfVectorizer for the char/word lexical legs
+
+pymorphy3==2.0.6             # Russian lemmatisation for the word leg
+rank-bm25==0.2.2             # kept for the ablation path; not on the shipped route
